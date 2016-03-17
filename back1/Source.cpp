@@ -45,9 +45,8 @@ void back()
 }
 void main()
 {
-	printf("n="); // citesc numarul de puncte din graf 
+	printf("n=");  
 	scanf_s("%d", &n);
-	//initializam matricea
 	for (i = 1; i <= n; i++)
 	for (j = 1; j <= n; j++)
 		a[i][j] = 0;
